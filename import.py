@@ -1,4 +1,3 @@
 import math
-print(math.pi)
-print(math.sqrt(25))
-print(math.pow(5, 3))
+n = 17
+print (19 + n + round(math.pi) * 2)
