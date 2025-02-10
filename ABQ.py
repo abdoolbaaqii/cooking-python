@@ -1,0 +1,5 @@
+kwara = ('normal')
+lagos = ('technology')
+kaduna = ('science')
+osun = ('normal')
+abuja = ('aviation')
