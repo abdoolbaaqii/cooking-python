@@ -5,3 +5,5 @@ def habit(sport, entertainment):
 
 habit("playing football", "joking" )
 habit("jogging", "singing")
+# 1- functions that perform a task
+# 2- functions that return a value
