@@ -1,9 +1,13 @@
-def habit(sport, entertainment):
-    print("My name is ABQ")
-    print(f"I love {entertainment} and  {sport}")
+def habit(food):
+    print(f"I love {food}")
 
 
-habit("playing football", "joking" )
-habit("jogging", "singing")
 # 1- functions that perform a task
 # 2- functions that return a value
+def make_habit(food):
+    return f"I love {food}"
+
+
+ABQ = make_habit("pounded yam")
+file = open("ABQ.REASON", "w")
+file.write(ABQ)
