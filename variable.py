@@ -1,4 +1,4 @@
-from math import pi
-radius = 5 # in cm
-volume = (4/3) * pi * radius**3 # in cm^3
-print (volume)
+import math 
+x = 42
+y = (math.cos(x)**2) + (math.sin(x)**2)
+print(y)
