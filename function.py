@@ -1,12 +1,8 @@
-def habit(food):
-    print(f"I love {food}")
+def mul(*players):
+    coach = 10
+    for player in players:
+        coach = player
+    return coach 
 
 
-def habit(food):
-    return f"I love {food}"
-
-
-message = habit("pounded yam")
-print(message)
-file = open("content.py", "w")
-file.write(message)
+print(mul(3, 17, 7, 4))
