@@ -1,8 +1,7 @@
-def print_name(string, brother):
-    print(string)
-    print(brother)
+def play(lyric, a):
+    print(lyric * a)
     
     
-string = 'ABQ'
-brother = 'mujaheed'
-print_name(string, brother)
+music = ("abanikanda ")
+play(music, 7)
+    
