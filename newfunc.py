@@ -1,8 +1,8 @@
-def print_twice(string):
+def print_name(string, brother):
     print(string)
-    print(string)
-    string = "playboy"
+    print(brother)
     
-
-name = "ABQ"
-print_twice(name)
+    
+string = 'ABQ'
+brother = 'mujaheed'
+print_name(string, brother)
