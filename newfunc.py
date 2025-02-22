@@ -1,7 +1,16 @@
-def play(lyric, a):
-    print(lyric * a)
+def repeat(word, n):
+    print(word * n)
+
+
+spam = 'cover me, '
+
+
+def first_two_lines():
+    repeat(spam, 4)
+    repeat(spam, 4)
     
     
-music = ("abanikanda ")
-play(music, 7)
+first_two_lines()
+           
+    
     
