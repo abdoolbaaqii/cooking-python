@@ -1,16 +1,29 @@
-def repeat(word, n):
-    print(word * n)
+def repeat(word, number):
+    print(word * number)
 
 
 spam = 'cover me, '
 
 
-def first_two_lines():
-    repeat(spam, 4)
-    repeat(spam, 4)
+def first_two_line():
+    repeat(spam, 5)
+    repeat(spam, 2)
+
+
+first_two_line()
+
     
-    
-first_two_lines()
+def last_three_line():
+        repeat(spam, 3)
+        print("Do me like I take tramadol")
+        repeat(spam, 1)
+        
+
+last_three_line()
+
+
+def print_verse():
+        first_two_line()
+        last_three_line()
            
-    
     
